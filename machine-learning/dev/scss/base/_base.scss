@@ -1,0 +1,63 @@
+/* =============
+    Base
+============= */
+
+a {
+    text-decoration: none;
+    transition: 0.25s;
+}
+<<<<<<< HEAD
+
+ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style: none;
+    }
+}
+
+.show-for-medium {
+    display: none;
+    @include md {
+        display: block;
+    }
+}
+.show-for-large {
+    display: none;
+    @include lg {
+        display: block;
+    }  
+}
+=======
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+
+ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style: none;
+    }
+}
+
+.show-for-medium {
+    display: none;
+    @include md {
+        display: block;
+    }
+}
+
+.show-for-large {
+    display: none;
+    @include lg {
+        display: block;
+    }
+}
+
+.show-for-lg {
+    display: none;
+    @include lg {
+        display: block !important;
+    }
+}

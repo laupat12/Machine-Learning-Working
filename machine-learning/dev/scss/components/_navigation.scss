@@ -1,0 +1,61 @@
+/* =============
+    Navigation
+============= */
+
+#nav-container {
+
+    ul {
+        height: 100%;
+
+        @include lg {
+            display: flex;
+        }
+
+        li {
+            margin-bottom: 20px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+            @include lg {
+                align-items: center;
+                border-right: 2px solid $black;
+                display: flex;
+                margin-bottom: 0px;
+            }
+
+            a:link,
+            a:visited {
+                color: $white;
+<<<<<<< HEAD
+                font-family: 'Roberto Slab', serif;
+=======
+                font-family: 'Roboto Slab', serif;
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+                padding: 0 20px;
+                text-decoration: none;
+
+                @include lg {
+                    color: $black;
+                }
+            }
+
+            a:hover,
+            a:active {
+                color: $yellow;
+            }
+        }
+
+        li:first-child {
+            border: none;
+        }
+
+        li:last-child {
+            border: none;
+<<<<<<< HEAD
+        }
+=======
+        } 
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+    }
+}
